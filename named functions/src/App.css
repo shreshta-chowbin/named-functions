@@ -1,0 +1,144 @@
+@font-face {
+  font-family: orangee;
+  src: url("./fontStyles//orange\ juice\ 2.0.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.main {
+  text-align: center;
+  margin: 25px;
+}
+
+fieldset{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+legend{
+  font-family: orangee;
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+  height: 40px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.stuDetailsDiv label{
+  display: inline-block;
+  width: 150px;
+  text-align: justify;
+  margin: 20px;
+}
+
+.stuDetailsDiv{
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+}
+
+p{
+  width: 200px;
+  height: 25px;
+  text-align: justify;
+  margin: 10px;
+}
+
+.subjDiv p{
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.paraSubHeading p{
+  display: block;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  font-family: "Dancing Script", cursive;
+}
+
+.resultPara{
+  display: inline-block;
+  /* width: fit-content; */
+  text-align: center;
+  /* margin: 10px; */
+}
+
+.marksHeading{
+  background-color: black;
+  border-radius: 10px;
+}
+
+span{
+  width: 200px;
+}
+
+.marks1Div input{
+  margin: 10px;
+  height: 21px;
+}
+
+.marks2Div input{
+  margin: 10px;
+  height: 21px;
+}
+
+
+.stuFormDiv{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightsteelblue;
+  border: 4px solid black;
+  border-radius: 20px;
+  width: 1200px;
+}
+
+/* .stuDetailsDiv, .resultDiv, .subjDiv, .maxMarksDiv, .marks2Div, .marks1Div{
+  overflow: hidden;
+} */
+
+.stuDetailsDiv{
+  width: 100%;
+}
+
+.maxMarksDiv{
+  width: 300px;
+}
+
+.maxMarksDiv span{
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.resultDiv{
+  width: 100%;
+}
+
+.subjDiv{
+  width: 300px;
+}
+
+.marks2Div{
+  width: 300px;
+}
+
+.marks1Div{
+  width: 300px;
+}
+
